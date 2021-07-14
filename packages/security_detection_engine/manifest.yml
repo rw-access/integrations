@@ -1,13 +1,13 @@
 categories:
-  - security
+- security
 conditions:
-  kibana.version: ^7.13.0
+  kibana.version: ^7.14.0
 description: Prebuilt detection rules for Elastic Security
 format_version: 1.0.0
 icons:
-  - size: 16x16
-    src: /img/security-logo-color-64px.svg
-    type: image/svg+xml
+- size: 16x16
+  src: /img/security-logo-color-64px.svg
+  type: image/svg+xml
 license: basic
 name: security_detection_engine
 owner:
@@ -15,4 +15,4 @@ owner:
 release: beta
 title: Prebuilt Security Detection Rules
 type: integration
-version: 0.13.2 # please add -dev.0 to any changes not made by the authors
+version: 0.14.0-dev.0
